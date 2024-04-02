@@ -25,11 +25,11 @@ Qual das seguintes alternativas melhor descreve o que o código faz?
 
 A) O código avalia a expressão booleana, imprime o resultado `false`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
 
-B) O código avalia a expressão booleana, imprime o resultado `true`, calcula a soma dos números de 1 a 5 e imprime o resultado no console.
+B) 
 
-C) O código avalia a expressão booleana, imprime o resultado `true` e verifica se o número 5 está presente na lista de números.
+C) 
 
-D) O código avalia a expressão booleana, imprime o resultado `false` e ordena a lista de números em ordem crescente.
+D) 
 
 ______
 
@@ -86,13 +86,13 @@ function calculaOrcamento2(){
 
 Escolha a opção que responde corretamente qual seria a saída após a execução de cada função:
 
-A) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -1050.'
+A) 
 
 B) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -1050.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -100.'
 
-C) A saída de calcularOrcamento() seria: 'Seu saldo é negativo de -100.' e a de calcularOrcamento2() seria: 'Seu saldo é negativo de -1050.'
+C) 
 
-D) As funções calcularOrcamento() e calcularOrcamento2() teriam a mesma saída: 'Seu saldo é negativo de -100.'
+D) 
 
 ______
 
@@ -113,13 +113,13 @@ if (numero % 2 === 0) {
  Qual das seguintes alternativas é a descrição mais precisa do que o código faz?
 
 
-A) O código verifica se o número é divisível por 3 e, se for, exibe a mensagem "O número é divisível por 3!".
+A) 
 
-B) O código verifica se o número é par ou ímpar. Se for par, exibe a mensagem "O número é par!". Se for ímpar, exibe a mensagem "O número é ímpar!".
+B) 
 
 C) O código verifica se o número é par, ímpar ou divisível por 3. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3, exibe a mensagem "O número é divisível por 3!". Se for ímpar, exibe a mensagem "O número é ímpar e não é divisível por 3!".
 
-D) O código verifica se o número é par, se é divisível por 3 ou se é ímpar. Se for par, exibe a mensagem "O número é par!". Se for divisível por 3 (e não for par), exibe a mensagem "O número é divisível por 3!". Se for ímpar (e não for divisível por 3), exibe a mensagem "O número é ímpar e não é divisível por 3!".
+D) 
 
 
 ______
@@ -150,16 +150,6 @@ for (var i = 0; i < valorCompras.length; i++) {
 Escolha a opção que responde corretamente:
 
 A)
-Compra 1 aprovada. Saldo restante: 800
-
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
-
-Compra 3 aprovada. Saldo restante: 400
-
-Compra 4 aprovada com limite de crédito. Saldo restante: 0
-
-Compra 5 aprovada. Saldo restante: -200
-
 
 B)
 Compra 1 aprovada. Saldo restante: 800
@@ -172,28 +162,9 @@ Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
 
 Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
 
-
 C)
-Compra 1 aprovada. Saldo restante: 800
-
-Compra 2 aprovada com limite de crédito. Saldo restante: 700
-
-Compra 3 aprovada. Saldo restante: 400
-
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
 
 D)
-
-Compra 1 aprovada. Saldo restante: 800
-
-Compra 2 aprovada. Saldo restante: 0
-
-Compra 3 aprovada com limite de crédito. Saldo restante: 200
-
-Compra 4 negada. Saldo insuficiente e limite de crédito excedido.
-
-Compra 5 negada. Saldo insuficiente e limite de crédito excedido.
 
 ______
 
@@ -201,33 +172,53 @@ ______
 
 Escolha a opção que responde corretamente:
 
-A) Setup -> Update -> Draw
+A) 
 
 B) Preload -> Create -> Update
 
-C) Load -> Initialize -> Render
+C)
 
-D) Begin -> Play -> End
+D) 
 ______
 
 **6)** Qual é o objetivo principal do módulo Arcade Physics em Phaser.js?
 
 Escolha a opção que responde corretamente:
 
-A) Renderizar gráficos 3D para jogos em HTML5.
+A) 
 
 B) Simular interações físicas realistas, como colisões e movimentos, em jogos 2D.
 
-C) Criar efeitos de áudio para melhorar a experiência do usuário em jogos.
+C) 
 
-D) Gerenciar a lógica do jogo e a sincronização de eventos em jogos multiplayer.
+D) 
 
 ______
 
 # Questões dissertativas
 
 **7)** Implemente o pseudocódigo para o algoritmo representado no fluxograma da imagem.
-![Uma imagem](assets/image.png)
+
+```
+InicioDoCodigo
+Var idade 
+
+Printar "Insira sua idade:" idade   //aguarda input do usuário
+Guardar idade
+
+se idade < 16 entao {
+    printar "Você não pode votar"
+}
+se 16 <= idade < 18 entao {
+    printar "Você tem voto facultativo!"
+}
+senão {
+    printar "Seu voto é obrigatório" }
+
+FimDoCodigo
+
+```
+
 ______
 
 **8)** Considere a implementação da classe base FormaGeometrica em um sistema de modelagem de formas geométricas. Sua tarefa é implementar, utilizando pseudocódigo, as classes derivadas Retangulo e Circulo, que herdam da classe FormaGeometrica, adicionando atributos específicos e métodos para calcular a área de um retângulo e de um círculo, respectivamente.
@@ -244,7 +235,42 @@ Classe FormaGeometrica:
         # Implementação genérica para cálculo de área, a ser sobrescrita pelas subclasses.
 
 ```
+Resposta 8: 
+```
+InicioDoCodigo
+InicioFuncao
 
+Cria classe Retangulo:
+    Essa classe herda de FormaGeometrica
+   Define os atributos:
+        - cor
+        - base
+        - altura
+
+  Define Método Construtor(cor, base, altura) do retangulo:
+        novo cor = cor
+        novo base = base
+        novo altura = altura
+
+   Chama Método CalcularArea():
+        Printar base * altura
+
+Cria Classe Circulo:
+    Essa classe herda  FormaGeometrica
+    Define os atributos:
+        - cor
+        - raio
+
+   Define Método Construtor(cor, raio) do circulo:
+        novo cor = cor
+        novo raio = raio
+
+    Chama Método CalcularArea(): 
+    
+    FimCodigo
+FimFuncao
+
+```
 ______
 
 **9)** Você foi contratado(a) como estagiário(a) da Tesla e está participando do desenvolvimento de um programa para simular o desempenho de um carro elétrico em uma corrida. Seu objetivo é determinar em quantos minutos o carro levará para completar uma determinada distância, levando em consideração uma velocidade inicial e uma taxa de aceleração constante. No entanto, você deseja garantir que o carro não exceda uma velocidade máxima nem que a corrida demore mais do que um tempo máximo. Implemente a lógica dessa simulação em pseudocódigo.
@@ -254,6 +280,32 @@ Considere a fórumla de atualização velocidade:
     velocidade = velocidadeInicial + aceleracao*tempo
 ```
 
+Resposta 9:  
+``` 
+InicioDoCodigo
+Var velocidadeInicial, aceleracao, distancia, velocidadeMaxima, tempoMaximo, tempo
+
+InicioFuncao
+
+Var velocidade = velocidadeInicial
+
+Enquanto velocidade < velocidadeMaxima && tempo < tempoMaximo faça {
+    tempo = tempo + 1
+    velocidade = velocidade + aceleracao
+}
+Se tempo >= tempoMaximo  
+{
+    Printar "Não foi possível completar a corrida até o tempo máximo"
+} 
+senao {
+   	let tempoParaCompletar = distancia / velocidade
+    Printar "O carro completou a corrida em" 'tempoParaCompletar' "min"
+}	
+FimFuncao
+FimCodigo 
+
+
+```
 ______
 
 **10)** Uma matriz é uma coleção bidimensional de elementos, organizados em linhas e colunas. A seguir, é fornecida a implementação da função SomaDeMatrizes(matrizA, matrizB), que calcula a soma de duas matrizes. Sua tarefa é implementar uma função semelhante, porém que realize a multiplicação de duas matrizes.
@@ -282,4 +334,40 @@ matrizB <- [[9, 8, 7], [6, 5, 4], [3, 2, 1]]
 matrizSoma <- SomaDeMatrizes(matrizA, matrizB)
 Escrever("Soma das matrizes:")
 ImprimirMatriz(matrizSoma)
+```
+ 
+ Resposta 10: 
+ ``` InicioDoCodigo
+matrizA
+matrizB
+var matrizResultado
+
+InicioFuncao
+Receber matrizA
+Receber matrizB
+
+Se
+ tamanho(matrizA[0]) =! tamanho(matrizB) 
+então {
+    printar "não foi possivel multiplicar as matrizes"
+}
+senao {
+    linhas = tamanho(matrizA)
+    colunas = tamanho(matrizB[0])
+}
+    
+matrizResultado = novaMatriz(linhas, colunas)
+
+    for i(0 até linhas -1) {
+faça 
+  	  for j (0 até colunas -1) faça {
+            soma = 0 }
+            
+	for k (0 até tamanho(matrizA[0]) -1) faça {
+                soma = soma + (matrizA[i][k] * matrizB[k][j])
+            matrizResultado[i][j] = soma 
+		}} 
+
+    printar matrizResultado // mostra o resultado pró usuário 
+
 ```
